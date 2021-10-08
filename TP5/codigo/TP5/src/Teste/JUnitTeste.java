@@ -4,6 +4,9 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import controle.*;
 
+//Complicação:O org.junit.jupiter.api.Test; não foi funciona no JUnitTeste pois a biblioteca JUnit5 não esta presente, o proprio eclipse da a solução de adicionar.
+//Motivo: Os arquivos .project e .classpath são classificados como "hidden" e não é permitido o seu envio
+
 class JUnitTeste {
 	int i =1;
 	String[] dados = new String[50];;
